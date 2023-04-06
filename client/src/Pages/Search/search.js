@@ -12,7 +12,7 @@ export const Search = ()=>{
     const [filteredData,setFiltered] = useState([])
     useEffect(() => {
         axios
-            .get("https://mfga.herokuapp.com/searchData")
+            .get("http://localhost:4000/searchData")
             .then( (res) => {
               const data = res.data;
               setData(data);
@@ -42,7 +42,7 @@ export const Search = ()=>{
             name: e,
         }
         axios
-        .post("https://mfga.herokuapp.com/searchData/count", needs)
+        .post("http://localhost:4000/searchData/count", needs)
         .then((res) => {
           if(res.status===200){
              console.log("count added !");
@@ -65,7 +65,7 @@ export const Search = ()=>{
             {filteredData.length != 0 && (
             <DataDiv>
                 {filteredData.slice(0,15).map((value,key) =>{
-                    return(<SmallDataA name={value.name} href={"https://mfga.herokuapp.com"+value.route}>
+                    return(<SmallDataA name={value.name} href={"http://localhost:4000"+value.route}>
                     <SmallDataP>{value.name}</SmallDataP>
                     </SmallDataA>
                     );

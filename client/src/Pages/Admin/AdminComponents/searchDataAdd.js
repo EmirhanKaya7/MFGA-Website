@@ -13,7 +13,7 @@ export const SearchDataAdd =()=>{
             }
 
           axios
-          .post("https://mfga.herokuapp.com/searchData", needs)
+          .post("http://localhost:4000/searchData", needs)
           .then((res) => {
             if(res.status===200){
                 window.alert(res.data.message)

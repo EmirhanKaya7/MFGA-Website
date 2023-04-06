@@ -2,7 +2,7 @@
 
 
 Our deployed website:
-https://mfga.herokuapp.com/
+http://localhost:4000/
 
 # Description
 This site is for Turkish Super League fans, Turkish Super League Referees and Turkish Super League Board Members that wants to have more information about the league, referees and players. In this platform users can display the league statistics, referee statistics, and player statistics. In this platform users can rate the referees about their performance so that they can contribute to the Turkish Super League referee assignments. In this platform Board Members can see the referee ratings in this website and Board Members can assign referees to upcoming matches. Referees can see the matches that they've been assigned easily. MFGA is a MERN application. Fronetend is built with React.js, backend is built with Javascript, Express.js and MongoDB.  
@@ -30,7 +30,7 @@ performance which contributes to the general ratings of the referees.
 
 # User Documentation
 ## How to install and run the software
-There isn't any installation neeeded for accessing the website. You can simply access the website by this link https://mfga.herokuapp.com/.
+There isn't any installation neeeded for accessing the website. You can simply access the website by this link http://localhost:4000/.
 
 ## How to report a bug
 If you spot a bug and want to inform us about it. You can go to the issues page in github and create a new issue.
@@ -41,7 +41,7 @@ If you spot a bug and want to inform us about it. You can go to the issues page 
 # Developer Documenation
 Here is our documentation:
 - Our [Code Documentation](https://docs.google.com/document/d/15nAiN_72t7PyvEIviAzCuF1svOTWvkq61-BkOqLAgFc/edit)
-- Our [API Documentation](https://mfga.herokuapp.com/doc)
+- Our [API Documentation](http://localhost:4000/doc)
 ## Obtaining source code
 Clone the repository directly from github, frontend and backend repositories are at the same repository.
 You can clone the repository with this HTTPS: https://github.com/SU-CS308-22FA/Team28---Make-Football-Great-Again---MFGA.git

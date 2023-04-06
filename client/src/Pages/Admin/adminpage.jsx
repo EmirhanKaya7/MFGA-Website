@@ -9,7 +9,7 @@ import { SearchDataAdd } from "./AdminComponents/searchDataAdd";
 export const Admin = () =>{
 
     const [users,SetUsers] = useState([]);
-    axios.get('https://mfga.herokuapp.com/api/admin')
+    axios.get('http://localhost:4000/api/admin')
     .then(res =>{
         const users = res.data;
         SetUsers(users)
